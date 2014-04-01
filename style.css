@@ -405,4 +405,91 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+.container {
+   margin: 0px auto;
+   width: 922px;
+   text-align: left;
+}
+nav {
+font-weight: bold;
+position: fixed;
+top: 0px;
+left: 0px;
+right: 0px;
+z-index: 10000;
+padding: 0px 2em;
+/*height: 3em;*/
+/*min-width: 71.3846em;*/
+box-shadow: 0px 0.15385em 0.23077em rgba(0, 0, 0, 0.15);
+border-top: 1px solid rgb(250, 188, 43);
+border-bottom: 1px solid rgb(226, 160, 5);
+background-color: rgb(255, 218, 68);
+background-image: linear-gradient(rgb(255, 218, 68), rgb(250, 188, 43));
+}
+nav h1 { 
+display: none;
+}
+nav ul { 
+list-style: none outside none;
+margin: 0px auto;
+width: 922px;
+padding: 0px;
+position: relative;
+}
+nav li { 
+border-bottom: 0px none currentColor;
+border-right: 1px solid #E1A61A;
+float: right;
+}
+nav a { 
+padding: 0.1em 1em;
+text-decoration: none;
+color: rgb(51, 51, 51);
+text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
+}
+header {
+   margin: 0px auto;
+   width: 922px;
+}
+[role="main"] {
+  float: left;
+  /* 592px / 960px */
+  width: 67%;
+}
+[role="complementary"] {
+  float: right;
+  border: 1px solid #e3e3e3;
+  -moz-border-radius: .35714285714286em;
+  border-radius: .35714285714286em;
+  margin-top: 25px;
+  padding: 1em 1em 0;
+  /* 290px / 960px */
+  width: 25.0%;
+  background: #f7f7f7;
+}
+[role="banner"] {
+  border-left: 1px solid #e3e3e3;
+  border-right: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+  -moz-border-radius: .35714285714286em;
+  border-radius: .35714285714286em;
+  background: #f7f7f7;
+}
+.clearfix:after, header:after, nav ul:after, .container:after, footer:after, #paginator:after, #monthly-list:after {
+    clear: both;
+}
+.clearfix:before, .clearfix:after, header:before, header:after, nav ul:before, nav ul:after, .container:before, .container:after, footer:before, footer:after {
+    content: "";
+    display: table;
+}
+footer { 
+   width: 922px;
+   margin: 0px auto;
+}
+.wrapper { 
+background: #FFFFFF;
+border-bottom: 1px solid #CCCCCC;
+}
+body { 
 
+}
